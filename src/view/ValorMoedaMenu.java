@@ -21,7 +21,7 @@ public class ValorMoedaMenu {
 
                 throw new IllegalArgumentException("Invalid Input Range");
             } catch (Exception e) {
-                System.out.println("[ERROR] Valor de entrada não válido, tente novamente, um número entre 1 e 3.");
+                System.out.println("[ERROR] Valor de entrada não válido, tente novamente, o número deve ser um inteiro ou decimal, separado por vírgula.");
                 this.scanner.nextLine();
             }
         }
